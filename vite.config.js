@@ -1,11 +1,9 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-import tailwindcss from '@tailwindcss/vite'
-import { resolve } from 'path'
-
-// https://vite.dev/config/
+import { defineConfig } from "vite"
+import react from "@vitejs/plugin-react"
+import tailwindcss from "@tailwindcss/vite"
+import { resolve } from "path"
 export default defineConfig({
-  base: 'visualistry.github.io',
+  base: '/',
   plugins: [react(), tailwindcss()],
   build: {
     rollupOptions: {
