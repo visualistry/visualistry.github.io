@@ -5,7 +5,7 @@ import { resolve } from 'path'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/',
+  base: 'visualistry.github.io',
   plugins: [react(), tailwindcss()],
   build: {
     rollupOptions: {
